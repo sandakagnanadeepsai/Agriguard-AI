@@ -1,0 +1,6 @@
+{
+  "name": "AgriGuard AI",
+  "description": "AI-powered early-warning system and mobile web app for smallholder farmers to diagnose crop diseases, provide multilingual audio remediation, and track regional outbreaks.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

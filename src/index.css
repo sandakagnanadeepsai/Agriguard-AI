@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Leaflet Dark Theme & Custom Glow Controls */
+.leaflet-popup-content-wrapper {
+  background: rgba(18, 26, 18, 0.92) !important;
+  color: #f5f5f4 !important;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background: rgba(18, 26, 18, 0.92) !important;
+}
+
+.leaflet-container {
+  font-family: inherit !important;
+  background-color: #0a120a !important;
+}
+
+/* Custom glowing scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(132, 204, 22, 0.4);
+}
